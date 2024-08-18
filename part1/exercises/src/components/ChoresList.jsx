@@ -11,7 +11,7 @@ class ChoresList extends React.Component {
    render() {
          const chores = ["Gocery Shopping", "Living Room","Doing Dishes","Laundry"];
       return (
-      <div>                       
+      <div style={{ border: '2px solid black', padding: '1px' }}>                       
          <h3 className = {classes.choresHeading}>My Chores of the week</h3>
          <ol>
             <li className={classes.choresText}>{chores[0]}</li>
